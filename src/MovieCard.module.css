@@ -1,0 +1,23 @@
+.MovieCard{
+    list-style: none;
+    text-align: center;
+    font-size: 1.3em;
+    color: #79A9D1;
+    /* max-width: 250px; */
+}
+
+.list_img{
+    border-radius: 7px;
+    background-color: azure;
+    
+}
+
+@media (max-width: 500px ) {
+    .list_img {
+        width: 95%;
+        height: auto;
+      
+        
+    }
+}
+
